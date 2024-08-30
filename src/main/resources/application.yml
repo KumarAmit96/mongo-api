@@ -1,0 +1,13 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: Mongo-DB-Spring-Boot-App
+  data:
+    mongodb:
+      uri: mongodb+srv://${MONGO_USERNAME}:${MONGO_PASSWORD}@cluster-1.3rwgk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-1
+      database: mongo-tutorial
+
+MONGO_USERNAME: ''
+MONGO_PASSWORD: ''
